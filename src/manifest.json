@@ -1,0 +1,7 @@
+{
+	"name": "Simple chrome extension",
+	"version": "1.0",
+	"description": "My first chrome extension",
+	"manifest_version": 2
+  }
+  
