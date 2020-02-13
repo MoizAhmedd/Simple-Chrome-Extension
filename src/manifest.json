@@ -2,6 +2,19 @@
 	"name": "Simple chrome extension",
 	"version": "1.0",
 	"description": "My first chrome extension",
-	"manifest_version": 2
+	"manifest_version": 2,
+	"permissions": [
+        "activeTab",
+        "webNavigation"
+    ],
+    "background": {
+        "scripts": [
+			"background.js",
+			"runtime.js"
+        ]
+    },
+	"page_action": {
+        "default_popup": "index.html"
+    }
   }
   
